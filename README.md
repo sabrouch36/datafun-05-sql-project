@@ -96,4 +96,4 @@ Python integration using sqlite3 and pathlib
 
  Query Result: Sorted Books by Year
 
-![Sorted Books](sql_create/screenshots/query_sort_books_result.png)
+![Sorted Books](screenshots/sorted_books.png)
