@@ -94,6 +94,8 @@ SQL queries: filtering, sorting, aggregation, group by, and joins
 
 Python integration using sqlite3 and pathlib
 
- Query Result: Sorted Books by Year
 
-![Sorted Books](https://github.com/sabrouch36/datafun-05-sql-project/blob/main/screenshots/sorted_books.png?raw=true)
+
+### Query Result: Sorted Books by Year
+
+![Sorted Books](https://raw.githubusercontent.com/sabrouch36/datafun-05-sql-project/main/screenshots/sorted_books.png)
