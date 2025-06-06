@@ -24,6 +24,57 @@ datafun-05-sql-project/
 ├── db03_queries.py # Executes all SQL query scripts
 └── README.md # Project report
 
+##Setup Instructions
+
+Clone the repository:
+
+git clone https://github.com/teflxndxn/datafun-05-sql.git
+cd datafun-05-sql
+
+
+Create and activate a Python virtual environment:
+
+python3 -m venv .venv source .venv/bin/activate # macOS/Linux .venv\Scripts\activate # Windows
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the database setup script to create tables and insert data:
+python db01_setup.py
+
+Run the features script to update or delete records:
+python sql_features/db02_features.py
+
+Run the query script to see data querying examples:
+python sql_queries/db03_queries.py
+
+Database Schema
+This project uses two related tables:
+
+products
+
+product_id (Primary Key)
+
+category
+
+price
+
+rating
+
+stock
+
+sales
+
+sale_id (Primary Key)
+
+product_id (Foreign Key to products.product_id)
+
+quantity
+
+sale_date
+
+Foreign key constraints enforce data integrity between products and sales.
+
 
 
 ---
