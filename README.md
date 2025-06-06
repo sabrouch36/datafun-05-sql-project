@@ -99,3 +99,6 @@ python db03_queries.py     # Runs analytical queries and prints results
 
 - Python integration using sqlite3 and pathlib
 
+### Query Result: Sorted Books by Year
+
+![Sorted Books](screenshots/query_sort_books_result.png)
