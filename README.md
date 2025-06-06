@@ -101,4 +101,4 @@ python db03_queries.py     # Runs analytical queries and prints results
 
 ### Query Result: Sorted Books by Year
 
-![Sorted Books](screenshots/query_sort_books_result.png)
+![Sorted Books](screenshotsquery_sort_books_result.png)
